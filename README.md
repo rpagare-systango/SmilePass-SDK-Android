@@ -1,5 +1,7 @@
 # SmilePass Android SDK
 
+[ ![Latest Version](https://api.bintray.com/packages/smilepass-ltd/maven/com.smilepass.mobilesdk/images/download.svg) ](https://bintray.com/smilepass-ltd/maven/com.smilepass.mobilesdk/_latestVersion)
+
 ## Introduction
 SmilePass is a face verification SDK for Android.
 Using SmilePass, our clients can create unique and secure biometric profiles for each of their customers as they begin their journey together. Any future transactions or events that contain risk are verified against this profile.
@@ -31,7 +33,8 @@ Add SmilePass Android SDK to your project. To do this, add the following depende
 ```gradle
 implementation 'com.smilepass.mobilesdk:smilepass:{latest-version}'
 ```
-The latest version can be found [here](https://github.com/SmilePass-ltd/SmilePass-SDK-Android/releases).
+The latest version can be found at the stop of this file.
+You can find all versions directly from [Bintray](https://bintray.com/smilepass-ltd/maven/com.smilepass.mobilesdk).
 
 ### Step 2. Instantiate SmilePass client
 Create an instance of SmilePass rest client and pass API Key as follows:
