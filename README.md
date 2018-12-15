@@ -3,7 +3,7 @@
 [ ![Latest Version](https://api.bintray.com/packages/smilepass-ltd/maven/com.smilepass.mobilesdk/images/download.svg) ](https://bintray.com/smilepass-ltd/maven/com.smilepass.mobilesdk/_latestVersion)
 
 ## Introduction
-SmilePass is a face verification SDK for Android.
+SmilePass is a face verification SDK for Android. This repo is the sample which demonstrate how to use SmilePass SDK in your app.
 Using SmilePass, our clients can create unique and secure biometric profiles for each of their customers as they begin their journey together. Any future transactions or events that contain risk are verified against this profile.
 
 **Our scalable security solution can be used to;**
@@ -13,6 +13,7 @@ Using SmilePass, our clients can create unique and secure biometric profiles for
 * Increase defences against fraudulent transactions and requests in a cost-effective way
 * Streamline access to services without the need for hardware
 
+SmilePass Android SDK is available for Android SDK greater than 14.
 
 ## Get Started
 
@@ -33,8 +34,8 @@ Add SmilePass Android SDK to your project. To do this, add the following depende
 ```gradle
 implementation 'com.smilepass.mobilesdk:smilepass:{latest-version}'
 ```
-The latest version can be found at the stop of this file.
-You can find all versions directly from [Bintray](https://bintray.com/smilepass-ltd/maven/com.smilepass.mobilesdk).
+The latest version can be found at the top of this file.
+The library is indexed on Bintray JCenter repository with all versions [here](https://bintray.com/smilepass-ltd/maven/com.smilepass.mobilesdk).
 
 ### Step 2. Instantiate SmilePass client
 Create an instance of SmilePass rest client and pass API Key as follows:
@@ -93,6 +94,12 @@ public void onRegistrationResponse(JSONObject jsonObject, Throwable throwable) {
 
 You are all set to use cutting-edge face verification features of the SmilePass. 
 
-For the detailed information on how to register and verify a user using SmilePass, read [SmilePass Tutorials](https://github.com/SmilePass-ltd/SmilePass-SDK-Android/wiki/SmilePass-Tutorials).
+## Documents
+For the detailed information on how to register and verify a user using SmilePass, read our detailed documents-
+* [SDK Setup](https://github.com/SmilePass-ltd/SmilePass-SDK-Android/wiki/SmilePass-SDK-Setup)
+* [SmilePass Tutorials](https://github.com/SmilePass-ltd/SmilePass-SDK-Android/wiki/SmilePass-Tutorials)
+* [Troubleshooting](https://github.com/SmilePass-ltd/SmilePass-SDK-Android/wiki/Troubleshooting)
 
-If you face any problem in integrating SmilePass in your app, read [Troubleshooting](https://github.com/SmilePass-ltd/SmilePass-SDK-Android/wiki/Troubleshooting).
+
+## License
+SmilePass Android SDK sample application is licensed with the MIT License. For more details, see [LICENSE](https://github.com/SmilePass-ltd/SmilePass-SDK-Android/blob/master/LICENSE).
